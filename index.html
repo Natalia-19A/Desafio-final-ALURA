@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es cl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <img src="./assets/img/Logo.png" alt="logo_alura">
+    <div class="container">
+        <input class="container_texto" id="texto" type="text" placeholder="Ingrese el texto aquí">
+        <div class="condiciones">
+            <p>
+                <small>sólo letras minúsculas y sin tílde</small>
+            </p>
+        </div>
+        <div class="botones">
+            <button class="boton_encriptar" type="button" onclick="encriptar();">Cifrar</button>
+            <button class="boton_desencriptar" type="button" onclick="desencriptar();">Descifrar</button>
+        </div>
+
+        <div class="tarjeta">
+            <img class= "muñeco" src="./assets/img/Muñeco.png" id="muñeco" alt="muñeco">
+            <div class="mensaje_encriptado" id="mensaje-encriptado">
+                <h2 id="texto_mensaje">Ningún mensaje fue encontrado</h2>
+                <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+                <textarea name="mensaje" id="mensaje" class="mensaje"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <footer class="creador">
+        <p>Creado por Natalia Astroza-2024</p>
+    </footer>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

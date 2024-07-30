@@ -1,0 +1,102 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: #FFE6E6;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.container{
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    margin-left: 100px;
+    height: 400;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.container_texto{
+    font-family: "Open Sans", sans-serif;
+    background-color: #FFE6E6;
+    padding: 10px;
+    border: none;
+    width: 577px;
+    height: 48px;
+    top: 168px;
+    left: 240px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    outline: none;
+}
+
+.botones{
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    gap: 15px;
+}
+
+.boton_encriptar{
+    background-color:#ffd6baff;
+    color: #ffd6baff;
+    border-color: #5c0029ff;
+}
+
+.boton_desencriptar{
+    background-color: #CAD8FD;
+    color: #ef709dff;
+    border-color: #5c0029ff;
+}
+
+.tarjeta{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 300px;
+    width: 400px;
+    height: 944px;
+    top: 40px;
+    left: 1000px;
+    gap: 0px;
+    border-radius: 32px;
+}
+
+.muñeco{
+    width: auto;
+    height: 304px;
+    top: 283px;
+    left: 1032px;
+    gap: 0px;
+}
+
+.mensaje{
+    text-align: center;
+    color: #333;
+}
+
+.creador {
+    display: flex;
+    font-family:"Open Sans", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+}

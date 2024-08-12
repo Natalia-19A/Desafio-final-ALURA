@@ -207,6 +207,25 @@ margin-top: 10px;
     text-align: center;
 
 }
+
+.copiar{
+    font-family: Inter; 
+    font-size: 1.125rem;
+    line-height: 18px;
+    background-color: #ffb8deff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #141414ff;
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    gap: 8px;
+    border-radius: 24px;
+    border: 1px solid #ffb8deff;
+    display: flex;
+}
+
 .creador {
     display: flex;
     font-family:Inter;

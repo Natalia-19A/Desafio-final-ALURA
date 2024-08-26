@@ -279,7 +279,8 @@ body {
     .tarjeta{
         display: flex;
         flex-direction: column;
-        width: auto;
+        width: 350px;
+        height: 250px;
         margin: 20px auto 10px auto;
     }
 

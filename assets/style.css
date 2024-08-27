@@ -226,7 +226,7 @@ body {
     font-size: 1rem;
     text-align: center;
     color: var(--color-secundario);
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 @media (max-width: 900px){

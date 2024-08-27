@@ -165,7 +165,7 @@ body {
 }
 
 .muñeco {
-    height: 350px;
+    height: 280px;
     top: 100px;
     left: 1032px;
 }
@@ -226,6 +226,7 @@ body {
     font-size: 1rem;
     text-align: center;
     color: var(--color-secundario);
+    margin-top: 70px;
 }
 
 @media (max-width: 900px){
